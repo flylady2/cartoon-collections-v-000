@@ -4,7 +4,7 @@ def roll_call_dwarves(dwarves_names)
 end
 
 def summon_captain_planet(elements)
-  elements.collect {|element| element.capitalize.join("! ")}# code an argument here
+  elements.collect {|element| element.capitalize.join.split("!")}# code an argument here
   # Your code here
 end
 
