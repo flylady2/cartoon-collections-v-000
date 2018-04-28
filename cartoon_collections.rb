@@ -21,7 +21,7 @@ def find_the_cheese(foods)
   elsif foods.include?("camembert")
     return "camembert"
   else
-    return "nil"
+    return nil
   end
      # code an argument here
   # the array below is here to help
